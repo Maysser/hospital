@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Médecins</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ajouter un Médecin</h1>
+    <form id="medecinForm">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" required>
+
+        <label for="specialite">Spécialité:</label>
+        <input type="text" id="specialite" name="specialite" required>
+
+        <label for="telephone">Téléphone:</label>
+        <input type="tel" id="telephone" name="telephone" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Enregistrer</button>
+    </form>
+    <script src="medecin.js"></script>
+</body>
+</html>

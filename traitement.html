@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Traitements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ajouter un Traitement</h1>
+    <form id="traitementForm">
+        <label for="id_patient">ID Patient:</label>
+        <input type="number" id="id_patient" name="id_patient" required>
+
+        <label for="id_medecin">ID Médecin:</label>
+        <input type="number" id="id_medecin" name="id_medecin" required>
+
+        <label for="nom_medicament">Nom du Médicament:</label>
+        <input type="text" id="nom_medicament" name="nom_medicament" required>
+
+        <label for="dosage">Dosage:</label>
+        <textarea id="dosage" name="dosage" required></textarea>
+
+        <label for="duree">Durée:</label>
+        <input type="text" id="duree" name="duree" required>
+
+        <label for="date_prescription">Date de Prescription:</label>
+        <input type="date" id="date_prescription" name="date_prescription" required>
+
+        <button type="submit">Enregistrer</button>
+    </form>
+    <script src="traitement.js"></script>
+</body>
+</html>

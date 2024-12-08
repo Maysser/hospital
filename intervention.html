@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Interventions Chirurgicales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ajouter une Intervention Chirurgicale</h1>
+    <form id="interventionForm">
+        <label for="id_patient">ID Patient:</label>
+        <input type="number" id="id_patient" name="id_patient" required>
+
+        <label for="id_medecin">ID Médecin:</label>
+        <input type="number" id="id_medecin" name="id_medecin" required>
+
+        <label for="type_intervention">Type d'Intervention:</label>
+        <input type="text" id="type_intervention" name="type_intervention" required>
+
+        <label for="date_intervention">Date d'Intervention:</label>
+        <input type="date" id="date_intervention" name="date_intervention" required>
+
+        <label for="anesthesie">Anesthésie:</label>
+        <input type="text" id="anesthesie" name="anesthesie" required>
+
+        <label for="salle">Salle Opératoire:</label>
+        <input type="text" id="salle" name="salle" required>
+
+        <button type="submit">Enregistrer</button>
+    </form>
+    <script src="intervention.js"></script>
+</body>
+</html>
